@@ -1,0 +1,93 @@
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+  button{
+    border:none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #D14D72; 
+    border-radius:5px;
+    padding-top: 0.5rem;
+    font-size:18px;
+    cursor:pointer;
+  }
+  
+  button:hover{
+    background-color: #c3305a; 
+  }
+  .b{
+    font-weight: bolder;
+  }
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color: #FFABAB;
+    border-radius:5px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  
+  .dropdown-menu:hover .dropdown-item {
+    display: block;
+  }
+  
+  .dropdown-item button {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    padding:20px 40px;
+  }
+  
+  .dropdown-item:hover {
+    color: #0a0a23;
+    background-color: #c3305a; 
+    border-radius:5px;
+  }
+ .body{
+    color: #0a0a23;
+    background-color: #FFABAB;
+    padding: 3rem 4rem;
+    font-family: 'Montserrat', sans-serif;
+ }
+ .img-t{
+    align-items: end;
+    border-radius: 50%;
+ }
+ .mas{
+    padding-top: 7rem;
+ }
+ .big-head{
+    text-align: justify;
+    padding: 3rem 4rem;
+    font-family: 'Montserrat', sans-serif;
+ }
+ .b{
+    padding: 3rem 4rem;
+ }
+ #features{
+    background-color: #FCC8D1;
+    text-align: center;
+    padding: 3rem 4rem;
+ }
+ #footer{
+    background-color: #FEF2F4;
+    text-align: center;
+    padding: 3rem 4rem;
+ }
+ .img-f{
+    padding: 2rem 1.5rem;
+    border-radius: 100%;
+ }
+ .F{
+    padding: 3rem 2rem;
+ }
+ .social-icon{
+    padding: 0.4rem 0.5rem;
+ }
+ .social-ic{
+    color: black;
+ }
+ 
